@@ -1,7 +1,7 @@
 var moment     = require('moment');
 var bodyParser = require('body-parser');
    var express = require('express');
-   var app     = express()
+   var app     = express();
          moment().format();
 
 app.set("view engine", "ejs"); // set ejs as the view engine
